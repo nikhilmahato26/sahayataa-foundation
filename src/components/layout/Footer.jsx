@@ -14,9 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2.5">
-              <span className="grid h-10 w-10 place-items-center rounded-2xl bg-white/15">
-                <Icon name="HandHeart" className="h-5 w-5" />
-              </span>
+              <img src="/logo.png" alt={org.name} className="h-10 w-10 object-contain bg-white rounded-full p-0.5" />
               <span className="font-display text-lg font-extrabold">{org.name}</span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-white/80">{org.mission}</p>

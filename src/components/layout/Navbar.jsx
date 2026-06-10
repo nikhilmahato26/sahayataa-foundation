@@ -39,9 +39,7 @@ export default function Navbar() {
       >
         <div className="container-x flex items-center justify-between gap-4 py-3">
           <Link to="/" className="flex items-center gap-2.5">
-            <span className="grid h-10 w-10 place-items-center rounded-2xl bg-brand-600 text-white">
-              <Icon name="HandHeart" className="h-5 w-5" />
-            </span>
+            <img src="/logo.png" alt={org.name} className="h-10 w-10 object-contain rounded-full" />
             <span className="leading-tight">
               <span className="block font-display text-lg font-extrabold text-ink">
                 {org.shortName}

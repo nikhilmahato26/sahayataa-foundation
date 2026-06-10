@@ -4,18 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Brand identity — forest green, mint surfaces, ink text
+        // Brand identity — warm premium gold, gold surfaces, ink text
         brand: {
-          50: '#eafaf1',
-          100: '#d2f3e0',
-          200: '#a8e7c4',
-          300: '#6fd49f',
-          400: '#34b878',
-          500: '#159b5e',
-          600: '#0d7c4a', // primary
-          700: '#0b633c',
-          800: '#0b4e31',
-          900: '#093f29',
+          50: '#fbf9f2',
+          100: '#f7eed0',
+          200: '#eedda1',
+          300: '#e2c56a',
+          400: '#d4a838',
+          500: '#ba8b25',
+          600: '#9c7118', // primary
+          700: '#805b11',
+          800: '#64460a',
+          900: '#483105',
         },
         accent: {
           DEFAULT: '#1a91d6', // secondary action (Know More)
@@ -28,7 +28,7 @@ export default {
         },
         surface: {
           DEFAULT: '#ffffff',
-          tint: '#f3f8f5',
+          tint: '#fcfaf5',
           page: '#f5f8fb',
         },
       },
@@ -38,8 +38,8 @@ export default {
       },
       boxShadow: {
         card: '0 1px 2px rgba(15,23,42,.04), 0 12px 32px -12px rgba(15,23,42,.12)',
-        'card-hover': '0 2px 4px rgba(15,23,42,.05), 0 20px 44px -16px rgba(13,124,74,.28)',
-        pill: '0 8px 20px -8px rgba(13,124,74,.45)',
+        'card-hover': '0 2px 4px rgba(15,23,42,.05), 0 20px 44px -16px rgba(156,113,24,.28)',
+        pill: '0 8px 20px -8px rgba(156,113,24,.45)',
       },
       borderRadius: {
         '2xl': '1.25rem',
@@ -47,7 +47,7 @@ export default {
       },
       backgroundImage: {
         'page-soft':
-          'radial-gradient(1200px 600px at 90% -10%, #e8f5ee 0%, transparent 55%), linear-gradient(180deg, #f5f8fb 0%, #eef5f0 100%)',
+          'radial-gradient(1200px 600px at 90% -10%, #faf6ea 0%, transparent 55%), linear-gradient(180deg, #f5f8fb 0%, #f7f4eb 100%)',
       },
       keyframes: {
         'fade-up': {
