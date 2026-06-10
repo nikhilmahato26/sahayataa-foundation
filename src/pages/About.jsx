@@ -1,5 +1,6 @@
 import PageHeader from '@/components/ui/PageHeader'
 import AboutSection from '@/components/sections/AboutSection'
+import Team from '@/components/sections/Team'
 import ImpactStats from '@/components/sections/ImpactStats'
 
 export default function About() {
@@ -11,7 +12,8 @@ export default function About() {
         title="Helping hands, across India"
         subtitle="Who we are, what drives us, and the people making it happen."
       />
-      <AboutSection />
+      <AboutSection showTeam={false} />
+      <Team />
       <ImpactStats />
     </>
   )

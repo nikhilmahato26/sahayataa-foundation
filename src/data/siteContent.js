@@ -288,9 +288,9 @@ export const about = {
     },
   },
   team: [
-    { name: '', role: 'Founder', image: '/images/team/1.jpg' }, // TODO names/photos
-    { name: '', role: 'President', image: '/images/team/2.jpg' },
-    { name: '', role: 'Coordinator', image: '/images/team/3.jpg' },
+    { name: 'Amit Sharma', role: 'Founder', image: '/images/team/1.png' },
+    { name: 'Dr. Sunita Patel', role: 'President', image: '/images/team/2.png' },
+    { name: 'Rahul Verma', role: 'Coordinator', image: '/images/team/3.png' },
   ],
 }
 

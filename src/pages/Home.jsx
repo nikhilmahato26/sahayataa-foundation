@@ -4,6 +4,7 @@ import WhatWeDo from '@/components/sections/WhatWeDo'
 import Campaigns from '@/components/sections/Campaigns'
 import EventsGallery from '@/components/sections/EventsGallery'
 import StoriesOfChange from '@/components/sections/StoriesOfChange'
+import Team from '@/components/sections/Team'
 import DonateCTA from '@/components/sections/DonateCTA'
 import Offices from '@/components/sections/Offices'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Campaigns />
       <EventsGallery />
       <StoriesOfChange />
+      <Team />
       <DonateCTA />
       <Offices />
     </>
