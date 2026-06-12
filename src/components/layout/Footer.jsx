@@ -56,7 +56,7 @@ export default function Footer() {
                   rel="noreferrer"
                   className="flex items-center gap-2 hover:underline"
                 >
-                  <Icon name="MessageCircle" className="h-4 w-4 text-brand-200" />
+                  <Icon name="Whatsapp" className="h-4 w-4 text-[#25D366] shrink-0" />
                   WhatsApp us
                 </a>
               </li>

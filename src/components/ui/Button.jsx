@@ -9,6 +9,7 @@ const variants = {
     'bg-white text-ink ring-1 ring-slate-200 hover:ring-brand-300 hover:text-brand-700',
   ghost: 'bg-brand-50 text-brand-700 hover:bg-brand-100',
   dark: 'bg-ink text-white hover:bg-ink-soft',
+  whatsapp: 'bg-[#25D366] text-white hover:bg-[#22c35e] active:scale-[0.98]',
 }
 
 const sizes = {

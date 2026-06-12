@@ -76,9 +76,9 @@ export default function Navbar() {
               href={whatsappLink(`Hi ${org.name}, I'd like to know more.`)}
               target="_blank"
               rel="noreferrer"
-              variant="outline"
+              variant="whatsapp"
               size="sm"
-              icon="MessageCircle"
+              icon="Whatsapp"
             >
               WhatsApp
             </Button>
@@ -123,9 +123,9 @@ export default function Navbar() {
                   href={whatsappLink(`Hi ${org.name}, I'd like to know more.`)}
                   target="_blank"
                   rel="noreferrer"
-                  variant="outline"
+                  variant="whatsapp"
                   size="md"
-                  icon="MessageCircle"
+                  icon="Whatsapp"
                   className="flex-1"
                 >
                   WhatsApp

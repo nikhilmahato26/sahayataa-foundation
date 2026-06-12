@@ -56,28 +56,28 @@ export default function Team() {
                     className="grid h-9 w-9 place-items-center rounded-xl bg-slate-50 text-slate-400 hover:bg-brand-50 hover:text-brand-700 transition"
                     aria-label="LinkedIn"
                   >
-                    <Icon name="Linkedin" className="h-4.5 w-4.5" />
+                    <Icon name="Linkedin" className="h-4 w-4" />
                   </a>
                   <a
                     href="#"
                     className="grid h-9 w-9 place-items-center rounded-xl bg-slate-50 text-slate-400 hover:bg-brand-50 hover:text-brand-700 transition"
                     aria-label="Facebook"
                   >
-                    <Icon name="Facebook" className="h-4.5 w-4.5" />
+                    <Icon name="Facebook" className="h-4 w-4" />
                   </a>
                   <a
                     href="#"
                     className="grid h-9 w-9 place-items-center rounded-xl bg-slate-50 text-slate-400 hover:bg-brand-50 hover:text-brand-700 transition"
                     aria-label="Instagram"
                   >
-                    <Icon name="Instagram" className="h-4.5 w-4.5" />
+                    <Icon name="Instagram" className="h-4 w-4" />
                   </a>
                   <a
                     href={`mailto:${m.name.toLowerCase().replace(' ', '.')}@sahayataa.org`}
                     className="grid h-9 w-9 place-items-center rounded-xl bg-slate-50 text-slate-400 hover:bg-brand-50 hover:text-brand-700 transition"
                     aria-label="Email"
                   >
-                    <Icon name="Mail" className="h-4.5 w-4.5" />
+                    <Icon name="Mail" className="h-4 w-4" />
                   </a>
                 </div>
               </div>
