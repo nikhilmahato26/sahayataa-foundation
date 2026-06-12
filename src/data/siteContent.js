@@ -371,6 +371,16 @@ export const about = {
       role: 'National Coordinator / Advisor',
       image: '/images/team/cordinator.jpeg',
     },
+    {
+      name: 'Project Director (TBD)',
+      role: 'Project Director',
+      image: '/images/team/project-director.png',
+    },
+    {
+      name: 'Executive Director (TBD)',
+      role: 'Executive Director',
+      image: '/images/team/executive-director.png',
+    },
   ],
 }
 
