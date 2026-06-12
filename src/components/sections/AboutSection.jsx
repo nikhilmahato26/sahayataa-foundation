@@ -37,7 +37,7 @@ export default function AboutSection({ showTeam = true }) {
         </div>
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-400 to-brand-700 shadow-card">
           <SmartImage
-            src="/images/about-side.jpg"
+            src="/images/events/raja-mahendra-pratap-sahayata-foundation-delhi-2025/WhatsApp Image 2026-06-11 at 13.10.08.jpeg"
             alt="Our work"
             label="Add a team / field photo"
             icon="Users"
@@ -59,7 +59,7 @@ export default function AboutSection({ showTeam = true }) {
               onClick={() => setTab(t)}
               className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold transition ${
                 tab === t
-                  ? 'bg-brand-600 text-white shadow-pill'
+                  ? 'bg-brand-400 text-ink shadow-pill'
                   : 'bg-white text-ink-soft ring-1 ring-slate-200 hover:ring-brand-300'
               }`}
             >

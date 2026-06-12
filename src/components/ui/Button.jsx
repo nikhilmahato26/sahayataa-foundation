@@ -3,7 +3,7 @@ import Icon from '@/utils/icons.jsx'
 
 const variants = {
   primary:
-    'bg-brand-600 text-white hover:bg-brand-700 shadow-pill hover:shadow-card-hover',
+    'bg-brand-400 text-ink hover:bg-brand-500 shadow-pill hover:shadow-card-hover',
   secondary: 'bg-accent text-white hover:bg-accent-dark',
   outline:
     'bg-white text-ink ring-1 ring-slate-200 hover:ring-brand-300 hover:text-brand-700',

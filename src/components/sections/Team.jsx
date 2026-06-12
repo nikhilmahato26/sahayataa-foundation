@@ -48,9 +48,9 @@ export default function Team() {
               <div className="mt-6 text-center">
                 <h3 className="text-xl font-extrabold text-ink">{m.name}</h3>
                 <p className="text-sm font-semibold text-brand-700 mt-1 uppercase tracking-wider">{m.role}</p>
-                
+
                 {/* Social links */}
-                <div className="mt-5 flex justify-center gap-2.5">
+                {/* <div className="mt-5 flex justify-center gap-2.5">
                   <a
                     href="#"
                     className="grid h-9 w-9 place-items-center rounded-xl bg-slate-50 text-slate-400 hover:bg-brand-50 hover:text-brand-700 transition"
@@ -79,7 +79,7 @@ export default function Team() {
                   >
                     <Icon name="Mail" className="h-4 w-4" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

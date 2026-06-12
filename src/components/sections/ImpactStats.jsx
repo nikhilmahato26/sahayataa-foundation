@@ -49,7 +49,7 @@ export default function ImpactStats() {
           className="relative overflow-hidden rounded-3xl shadow-card"
         >
           <SmartImage
-            src="/images/impact-side.jpg"
+            src="/images/events/free-medical-camp-patna-2026-jan/WhatsApp Image 2026-06-11 at 13.02.29.jpeg"
             alt="On-ground camp"
             label="Add an on-ground photo"
             icon="Stethoscope"

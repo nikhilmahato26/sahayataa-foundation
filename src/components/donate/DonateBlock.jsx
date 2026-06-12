@@ -48,7 +48,7 @@ export default function DonateBlock({ compact = false }) {
               }}
               className={`rounded-full px-4 py-2 text-sm font-bold transition ${
                 !custom && amount === p
-                  ? 'bg-brand-600 text-white shadow-pill'
+                  ? 'bg-brand-400 text-ink shadow-pill'
                   : 'bg-brand-50 text-brand-700 hover:bg-brand-100'
               }`}
             >

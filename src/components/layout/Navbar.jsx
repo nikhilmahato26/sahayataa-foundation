@@ -22,9 +22,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50">
       {/* Top utility bar */}
-      <div className="bg-brand-700 text-center text-sm font-bold uppercase tracking-wide text-white">
+      <div className="bg-brand-400 text-center text-sm font-bold uppercase tracking-wide text-ink">
         <div className="container-x flex items-center justify-center gap-2 py-2">
-          <Icon name="Sparkles" className="h-4 w-4 text-brand-200" />
+          <Icon name="Sparkles" className="h-4 w-4 text-brand-800" />
           {org.name}
         </div>
       </div>
@@ -41,10 +41,10 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2.5">
             <img src="/logo.png" alt={org.name} className="h-10 w-10 object-contain rounded-full" />
             <span className="leading-tight">
-              <span className="block font-display text-lg font-extrabold text-ink">
+              <span className="block font-display text-lg font-extrabold uppercase tracking-wider text-ink">
                 {org.shortName}
               </span>
-              <span className="block text-[11px] font-semibold uppercase tracking-wider text-brand-700">
+              <span className="block text-[11px] font-bold uppercase tracking-widest text-brand-700">
                 Foundation
               </span>
             </span>

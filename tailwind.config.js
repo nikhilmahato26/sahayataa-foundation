@@ -6,16 +6,16 @@ export default {
       colors: {
         // Brand identity — warm premium gold, gold surfaces, ink text
         brand: {
-          50: '#fbf9f2',
-          100: '#f7eed0',
-          200: '#eedda1',
-          300: '#e2c56a',
-          400: '#d4a838',
-          500: '#ba8b25',
-          600: '#9c7118', // primary
-          700: '#805b11',
-          800: '#64460a',
-          900: '#483105',
+          50: '#fefce8',
+          100: '#fef9c3',
+          200: '#fef08a',
+          300: '#fde047',
+          400: '#d4a838', // user exact gold-yellow
+          500: '#eab308',
+          600: '#ca8a04',
+          700: '#a16207', // deep amber for text contrast
+          800: '#854d0e',
+          900: '#713f12',
         },
         accent: {
           DEFAULT: '#1a91d6', // secondary action (Know More)
