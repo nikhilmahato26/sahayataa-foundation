@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="bg-brand-400 text-center text-sm font-bold uppercase tracking-wide text-ink">
         <div className="container-x flex items-center justify-center gap-2 py-2">
           <Icon name="Sparkles" className="h-4 w-4 text-brand-800" />
-          {org.name}
+          {org.name} <span className="text-brand-800">x</span> {org.poweredBy}
         </div>
       </div>
 

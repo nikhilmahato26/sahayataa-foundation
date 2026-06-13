@@ -25,16 +25,10 @@ export const org = {
 //  donate.qrImage to its path to use that instead.
 // ------------------------------------------------------------------
 export const donate = {
-  upiId: 'sahayataafoundation@upi', // TODO: replace with real UPI / VPA
+  upiId: 'sahayataafoundation@oksbi',
   payeeName: 'Sahayataa Foundation',
   note: 'Donation to Sahayataa Foundation',
-  qrImage: null, // e.g. '/donate-qr.png' to override generated QR
-  bank: {
-    accountName: 'Sahayataa Foundation',
-    accountNumber: 'XXXXXXXXXXXX', // TODO
-    ifsc: 'XXXX0000000', // TODO
-    bankName: '', // TODO
-  },
+  qrImage: '/images/donate-qr.png',
   // suggested amounts (₹)
   presets: [201, 501, 1100, 2100, 5100],
 }
@@ -372,12 +366,12 @@ export const about = {
       image: '/images/team/cordinator.jpeg',
     },
     {
-      name: 'Project Director (TBD)',
+      name: 'Adv. Deepti Singh',
       role: 'Project Director',
       image: '/images/team/project-director.png',
     },
     {
-      name: 'Executive Director (TBD)',
+      name: 'Rishiraj Singh',
       role: 'Executive Director',
       image: '/images/team/executive-director.png',
     },

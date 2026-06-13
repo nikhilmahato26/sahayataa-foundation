@@ -98,15 +98,13 @@ export default function DonateBlock({ compact = false }) {
           </Button>
         </div>
 
-        {/* Bank details */}
+        {/* UPI details */}
         {!compact && (
           <div className="mt-6 rounded-2xl bg-surface-tint p-4 text-sm">
-            <p className="font-bold text-ink">Bank transfer</p>
+            <p className="font-bold text-ink">UPI Payment Details</p>
             <dl className="mt-2 grid gap-1 text-ink-soft">
-              <Row k="Account name" v={donate.bank.accountName} />
-              <Row k="Account no." v={donate.bank.accountNumber} />
-              <Row k="IFSC" v={donate.bank.ifsc} />
-              {donate.bank.bankName && <Row k="Bank" v={donate.bank.bankName} />}
+              <Row k="Payee Name" v={donate.payeeName} />
+              <Row k="UPI ID" v={donate.upiId} />
             </dl>
           </div>
         )}
@@ -114,14 +112,14 @@ export default function DonateBlock({ compact = false }) {
 
       {/* QR */}
       <div className="card flex flex-col items-center justify-center gap-4 p-6 text-center sm:p-8">
-        <div className="rounded-3xl bg-white p-4 shadow-card ring-1 ring-brand-100">
-          {donate.qrImage ? (
-            <img
-              src={donate.qrImage}
-              alt="Scan to donate"
-              className="h-48 w-48 rounded-xl object-contain"
-            />
-          ) : (
+        {donate.qrImage ? (
+          <img
+            src={donate.qrImage}
+            alt="Scan to donate"
+            className="w-full max-w-[280px] h-auto rounded-2xl shadow-card ring-1 ring-brand-100"
+          />
+        ) : (
+          <div className="rounded-3xl bg-white p-4 shadow-card ring-1 ring-brand-100">
             <QRCodeSVG
               value={link}
               size={192}
@@ -130,8 +128,8 @@ export default function DonateBlock({ compact = false }) {
               bgColor="#ffffff"
               marginSize={1}
             />
-          )}
-        </div>
+          </div>
+        )}
         <div>
           <p className="font-bold text-ink">Scan &amp; Pay</p>
           <p className="text-sm text-ink-muted">Any UPI app — GPay, PhonePe, Paytm</p>
