@@ -366,14 +366,14 @@ export const about = {
       image: '/images/team/cordinator.jpeg',
     },
     {
-      name: 'Adv. Deepti Singh',
-      role: 'Project Director',
-      image: '/images/team/project-director.png',
-    },
-    {
       name: 'Rishiraj Singh',
       role: 'Executive Director',
       image: '/images/team/executive-director.png',
+    },
+    {
+      name: 'Adv. Deepti Singh',
+      role: 'Project Director',
+      image: '/images/team/project-director.png',
     },
   ],
 }
