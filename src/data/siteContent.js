@@ -7,7 +7,7 @@
 export const org = {
   name: 'Sahayataa Foundation',
   shortName: 'Sahayataa',
-  tagline: 'Real Help, Real Change',
+  tagline: 'साथ है, सहायता है',
   mission:
     'NGO services across India — education, health, relief camps and community welfare delivered with dignity.',
   // Contact

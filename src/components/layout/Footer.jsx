@@ -80,7 +80,7 @@ export default function Footer() {
             <p>
               © {year} {org.name} — All rights reserved.
             </p>
-            <p className="font-semibold text-brand-900">Real Help • Real Change</p>
+            <p className="font-semibold text-brand-900">साथ है • सहायता है</p>
           </div>
         </div>
       </div>

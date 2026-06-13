@@ -44,7 +44,7 @@ export default function AboutSection({ showTeam = true }) {
             className="h-full min-h-[260px] w-full object-cover mix-blend-overlay"
           />
           <div className="absolute bottom-4 left-4 rounded-full bg-white/95 px-4 py-2 text-sm font-bold text-ink">
-            Real help • Real change
+            साथ है • सहायता है
           </div>
         </div>
       </motion.div>
